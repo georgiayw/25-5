@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 400px;
+  font-family: Helvetica, sans-serif;
+  color: rgb(225, 225, 225);
 }
 
 .App-logo {
@@ -35,4 +43,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+
+.break-length {
+  position: fixed;
+  left: 0%;
+  top: 15%;
+  font-size: 25px;
+  height: 125px;
+}
+
+.btn-level {
+  display: inline-block;
+}
+.btn-level:nth-child(3){
+  width: 40px;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 25px;
+  padding: none;
+}
+
+.session-length {
+  position: fixed;
+  right: 0%;
+  top: 15%;
+  font-size: 25px;
+}
+
+.timer {
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(187, 187, 187);
+  border-radius: 20px;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+}
+
+.btn {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#time-left {
+  font-size: 65px;
+  margin-top: 0;
 }
